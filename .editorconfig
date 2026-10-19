@@ -1,0 +1,21 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.{yml,yaml,md}]
+indent_size = 2
+
+[*.jinja]
+# The upstream templates have no final newline; keep the diff minimal.
+insert_final_newline = false
+
+[*.{py,md,yml,yaml,txt}]
+insert_final_newline = true
+
+[Makefile]
+indent_style = tab

@@ -1,0 +1,12 @@
+qwen-chat-template-variants
+Copyright 2026 claudeliang
+
+This project includes chat templates derived from the Qwen3.8 chat template
+published with the Qwen models:
+
+  https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/chat_template.jinja
+
+That upstream template is Copyright Alibaba Cloud and the Qwen team and is
+licensed under the Apache License, Version 2.0. The variants in this
+repository keep that template's tool-call markup and change only the
+behavior described in README.md.
